@@ -3,8 +3,143 @@ layout: default
 title: "Home"
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+<div class="container" style="padding-top: 40px; padding-bottom: 40px;">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+      <!-- Resume Header with CV Link -->
+      <div class="text-center mb-4">
+        <h1 class="display-4">Krish Sharma</h1>
+        <p>
+          <a href="tel:470-350-2122">470-350-2122</a> | 
+          <a href="mailto:ks@gatech.edu">ks@gatech.edu</a> | 
+          <a href="https://linkedin.com/in/krish-shar/" target="_blank">linkedin.com/in/krish-shar/</a> | 
+          <a href="https://github.com/krish-shar" target="_blank">github.com/krish-shar</a>
+        </p>
+        <p class="mt-3">
+          <a href="/cv.html" class="btn btn-primary">View PDF Resume</a>
+        </p>
+      </div>
+
+      <!-- Education Section -->
+      <section class="mb-5">
+        <h2 class="border-bottom pb-2">Education</h2>
+        <div class="row">
+          <div class="col-md-8">
+            <h3>Georgia Institute of Technology</h3>
+            <p>Bachelor of Science in Computer Science, Minor in FinTech</p>
+            <ul>
+              <li>Concentrations: Artificial Intelligence, Modeling & Simulation</li>
+              <li>Awards: Winner at Lightning Fast AI Hackathon (2024), HackUTD (2024), CornellRX (2024), VandyHacks (2024 & 2023), Hacklytics (2024), UGA Idea Accelerator (2023), Delta Innovation Hub Startup Pitch Playoff (2023)</li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-md-right">
+            <p>Atlanta, GA<br>Aug. 2022 – Dec. 2025</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="mb-5">
+        <h2 class="border-bottom pb-2">Experience</h2>
+        
+        <!-- Morgan Stanley -->
+        <div class="row mb-4">
+          <div class="col-md-8">
+            <h3>Technology Analyst Intern (Wealth Management Group)</h3>
+            <h4>Morgan Stanley</h4>
+            <ul>
+              <li>Conducted market research and developed AI-driven portfolio optimization models, improving risk-adjusted returns by 12% and enhancing decision-making efficiency</li>
+              <li>Integrated AI into financial data pipelines, enhancing data processing accuracy by 15% and reducing latency in real-time analytics workflows</li>
+              <li>Streamlined client onboarding and business acquisition processes, resulting in a 20% reduction in processing time and maximizing potential gains from new partnerships</li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-md-right">
+            <p>Atlanta, GA<br>Jan. 2025 – Present</p>
+          </div>
+        </div>
+        
+        <!-- Deployo.ai -->
+        <div class="row mb-4">
+          <div class="col-md-8">
+            <h3>Founding Engineer</h3>
+            <h4>Deployo.ai</h4>
+            <ul>
+              <li>Pioneered the development of a revolutionary no-code AI deployment platform, enabling one-click deployment from concept to production in seconds</li>
+              <li>Engineered AI-driven optimization algorithms to ensure optimal resource allocation for deployed models across various cloud environments, reducing operational costs by up to 30%</li>
+              <li>Implemented seamless integration capabilities, allowing the platform to work with any cloud provider and simplifying AI adoption for businesses of all sizes</li>
+              <li>Contributed to a 5x increase in deployment speed compared to traditional methods, significantly accelerating time-to-market for AI-powered applications</li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-md-right">
+            <p>Remote<br>Jan. 2025 – Present</p>
+          </div>
+        </div>
+        
+        <!-- Fung Group -->
+        <div class="row mb-4">
+          <div class="col-md-8">
+            <h3>Machine Learning Engineer Intern</h3>
+            <h4>Fung Group - Georgia Institute of Technology</h4>
+            <ul>
+              <li>Engineered Graph Neural Networks (GNNs) using PyTorch and TensorFlow for materials science applications, achieving a 20% improvement in model accuracy through innovative pre-training and optimization techniques</li>
+              <li>Implemented cutting-edge crystal structure prediction algorithms and active learning methods for topology optimization, enhancing the efficiency and accuracy of materials discovery processes</li>
+              <li>Developed inverse design algorithms for spectral analysis, integrating them with GNNs to create a comprehensive framework for AI-driven materials engineering and property prediction</li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-md-right">
+            <p>Atlanta, GA<br>Jan. 2024 – Present</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="mb-5">
+        <h2 class="border-bottom pb-2">Projects</h2>
+        
+        <!-- InvestIQ -->
+        <div class="row mb-4">
+          <div class="col-md-8">
+            <h3>InvestIQ</h3>
+            <p><em>Python, Flask, NextJS, AutoGen, Meta LLaMa</em></p>
+            <ul>
+              <li>Architected an innovative agentic AI system for algorithmic trading, leveraging dynamic retrieval mechanisms and enhanced generation models to provide superior financial insights</li>
+              <li>Implemented an iterative code generation and execution framework, enabling the AI to autonomously refine trading algorithms until achieving optimal performance</li>
+              <li>Developed a natural language interface that translates user queries into complex trading strategies, demonstrating a 70% improvement in algorithm quality through continuous self-improvement</li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-md-right">
+            <p>Nov. 2024</p>
+          </div>
+        </div>
+        
+        <!-- Options Pricing Model -->
+        <div class="row mb-4">
+          <div class="col-md-8">
+            <h3>Options Pricing Model</h3>
+            <p><em>Python, Numpy, SciPy, Docker, SQLite</em></p>
+            <ul>
+              <li>Built a web app for calculating stock option prices using Black-Scholes, Monte Carlo, and Binomial models</li>
+              <li>Optimized performance with real-time financial data integration and caching, reducing API calls by 70%</li>
+              <li>Developed a responsive frontend and deployed the docker containerized application on AWS with CI/CD pipelines</li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-md-right">
+            <p>Aug. 2024</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical Skills Section -->
+      <section class="mb-5">
+        <h2 class="border-bottom pb-2">Technical Skills</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <p><strong>Languages:</strong> Python, Java, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R, Dart, C#</p>
+            <p><strong>Frameworks:</strong> Tensorflow, Pytorch, Jax, Langchain, AutoGen, Flutter, React, NextJS, Flask, FastAPI, NodeJS</p>
+            <p><strong>Developer Tools:</strong> Git, Docker, AWS, GCP, Azure, Kubernetes, Unix, Vector Databases</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
