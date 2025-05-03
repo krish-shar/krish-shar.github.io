@@ -17,11 +17,14 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
-  - {file: "README.md"}
+  - {file: "CV.html"}
+  # - {file: "README.md"}
+
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:ks@gatech.edu"}
   - {title: Github, icon: github, url: "https://github.com/krish-shar"}
+  - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/krish-shar"}
   # - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
