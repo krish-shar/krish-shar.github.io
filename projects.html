@@ -7,81 +7,84 @@ permalink: /projects
 <div class="container py-5">
   <div class="text-center mb-4">
     <h1 class="display-5">Projects</h1>
-    <p class="text-muted">Selected work and hackathon highlights</p>
+    <p class="text-muted">Selected work</p>
   </div>
 
   <div class="row">
     <div class="col-12 col-lg-10 offset-lg-1">
       <div class="card border-0 shadow-sm mb-3">
         <div class="card-body">
-          <h3 class="h5 mb-2"><a href="https://devpost.com/software/investiq-1b0cio" target="_blank" rel="noopener">InvestIQ</a></h3>
+          <h3 class="h5 mb-2">
+            <a href="https://devpost.com/software/investiq-1b0cio" target="_blank" rel="noopener">InvestIQ</a>
+            <span class="text-muted"> (Python, Flask, Next.js, AutoGen, LLaMA, PostgreSQL, Docker)</span>
+          </h3>
           <ul class="mb-0">
-            <li><strong>Stack:</strong> Python, Flask, Next.js, AutoGen, Meta LLaMA</li>
-            <li><strong>Agentic workflow:</strong> converts plain English into backtested strategies with retrieval‑augmented reasoning.</li>
-            <li><strong>Evaluation loop:</strong> iterative code generation and metrics‑driven refinement for better Sharpe/Drawdown.</li>
-            <li><strong>Interface:</strong> natural‑language prompts to design, test, and deploy strategies.</li>
+            <li><strong>Agentic workflow:</strong> turns plain English into backtested strategies via RAG and tool orchestration.</li>
+            <li><strong>Evaluation loop:</strong> iterative codegen with metrics gating; tracks Sharpe, max drawdown, turnover.</li>
+            <li><strong>Infra:</strong> queue‑backed workers, cached market data, reproducible manifests, containerized jobs.</li>
+            <li><strong>Risk controls:</strong> slippage, fees, and position limits baked into simulation.</li>
+            <li><strong>Interface:</strong> NL prompts to design/test/deploy; exportable notebooks for auditability.</li>
           </ul>
         </div>
       </div>
       <div class="card border-0 shadow-sm mb-3">
         <div class="card-body">
-          <h3 class="h5 mb-2"><a href="https://devpost.com/software/stepsync-b9jz16" target="_blank" rel="noopener">StepSync</a></h3>
+          <h3 class="h5 mb-2">
+            <a href="https://devpost.com/software/stepsync-b9jz16" target="_blank" rel="noopener">StepSync</a>
+            <span class="text-muted"> (Next.js, TypeScript, MediaPipe, MongoDB, Auth0, IPFS)</span>
+          </h3>
           <ul class="mb-0">
-            <li><strong>Stack:</strong> Next.js, TypeScript, MediaPipe, MongoDB, Auth0, Pinata</li>
-            <li><strong>Pose analysis:</strong> on‑device keypoint tracking with timestamped, node‑level feedback.</li>
-            <li><strong>Originality:</strong> JSON pose vectors stored and compared for attribution.</li>
-            <li><strong>UX:</strong> creator‑friendly sharing and discovery.</li>
+            <li><strong>Pose analysis:</strong> on‑device keypoint tracking with temporal smoothing and confidence gating.</li>
+            <li><strong>Feedback engine:</strong> timestamped node‑level cues, ranges of motion, and heat‑maps in real time.</li>
+            <li><strong>Provenance:</strong> JSON pose vectors hashed and pinned to IPFS for originality checks.</li>
+            <li><strong>Collab:</strong> shared routines, remix flow, and versioned drafts.</li>
+            <li><strong>Creator UX:</strong> frictionless sharing and profile discovery.</li>
           </ul>
         </div>
       </div>
       <div class="card border-0 shadow-sm mb-3">
         <div class="card-body">
-          <h3 class="h5 mb-2"><a href="https://github.com/krish-shar/Talkaroo" target="_blank" rel="noopener">Talkaroo</a></h3>
+          <h3 class="h5 mb-2">
+            <a href="https://github.com/krish-shar/Talkaroo" target="_blank" rel="noopener">Talkaroo</a>
+            <span class="text-muted"> (Python, FastAPI, Vector DB, GPT‑4, Fine‑tuning)</span>
+          </h3>
           <ul class="mb-0">
-            <li><strong>Stack:</strong> Python, vector database, GPT‑4 fine‑tuning</li>
-            <li><strong>Memory:</strong> user‑centric vector store enabling persistent personal context.</li>
-            <li><strong>Tone:</strong> fine‑tuned for empathetic, natural dialogue.</li>
-            <li><strong>Focus:</strong> privacy, continuity, and control.</li>
+            <li><strong>Memory:</strong> user‑centric vector store for durable personal context and retrieval.</li>
+            <li><strong>Safety:</strong> guardrails and intent filters; configurable privacy levels per conversation.</li>
+            <li><strong>Quality:</strong> fine‑tuned tone for empathetic, natural dialogue.</li>
+            <li><strong>Latency:</strong> streaming responses with thought truncation safeguards.</li>
+            <li><strong>Control:</strong> user‑managed export and deletion of memories.</li>
           </ul>
         </div>
       </div>
       <div class="card border-0 shadow-sm mb-3">
         <div class="card-body">
-          <h3 class="h5 mb-2"><a href="https://krish-shar.github.io/music-recognition-pages/" target="_blank" rel="noopener">Music Recognition</a></h3>
+          <h3 class="h5 mb-2">
+            <a href="https://krish-shar.github.io/music-recognition-pages/" target="_blank" rel="noopener">Music Recognition</a>
+            <span class="text-muted"> (Python, Librosa, Scikit‑learn, Signal Processing)</span>
+          </h3>
           <ul class="mb-0">
-            <li><strong>Stack:</strong> Python, signal processing, classical ML</li>
-            <li><strong>Hum‑to‑search:</strong> predicts songs using learned pitch‑contour features.</li>
-            <li><strong>Performance:</strong> lightweight pipeline with fast inference.</li>
+            <li><strong>Hum‑to‑search:</strong> predicts songs from short hums using pitch‑contour embeddings.</li>
+            <li><strong>Features:</strong> chroma, MFCC, and DTW‑based alignment for robust matching.</li>
+            <li><strong>Dataset:</strong> curated clips with augmentation for tempo and pitch drift.</li>
+            <li><strong>Perf:</strong> lightweight pipeline with fast inference on CPU.</li>
           </ul>
         </div>
       </div>
       <div class="card border-0 shadow-sm mb-3">
         <div class="card-body">
-          <h3 class="h5 mb-2"><a href="https://github.com/krish-shar" target="_blank" rel="noopener">Options Pricing Model</a></h3>
+          <h3 class="h5 mb-2">
+            <a href="https://github.com/krish-shar" target="_blank" rel="noopener">Options Pricing Model</a>
+            <span class="text-muted"> (Python, NumPy, SciPy, SQLite, Docker)</span>
+          </h3>
           <ul class="mb-0">
-            <li><strong>Stack:</strong> Python, NumPy, SciPy, Docker, SQLite</li>
-            <li><strong>Models:</strong> Black‑Scholes, Monte Carlo, and Binomial with live market data.</li>
-            <li><strong>Ops:</strong> caching to reduce API usage, containerized deployment, responsive UI.</li>
+            <li><strong>Models:</strong> Black‑Scholes, Monte Carlo, and Binomial with live market data feed.</li>
+            <li><strong>Calibration:</strong> implied volatility surface fitting with error diagnostics.</li>
+            <li><strong>Greeks:</strong> analytic greeks and finite‑difference checks for validation.</li>
+            <li><strong>Ops:</strong> response caching, containerized deployment, and responsive web UI.</li>
           </ul>
         </div>
       </div>
-    </div>
-  </div>
-
-  
-
-  <div class="row justify-content-center">
-    <div class="col-12 col-lg-10">
-      <h2 class="h4 mb-3">Hackathon Highlights</h2>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item"><a href="https://devpost.com/software/investiq-1b0cio" target="_blank" rel="noopener">Lightning Fast AI Hackathon (2024)</a> — Winner</li>
-        <li class="list-group-item">HackUTD (2024) — Winner</li>
-        <li class="list-group-item">CornellRX (2024) — Winner</li>
-        <li class="list-group-item">VandyHacks (2024 & 2023) — Winner</li>
-        <li class="list-group-item">Hacklytics (2024) — Winner</li>
-        <li class="list-group-item">UGA Idea Accelerator (2023) — Winner</li>
-        <li class="list-group-item">Delta Innovation Hub Startup Pitch Playoff (2023) — Winner</li>
-      </ul>
     </div>
   </div>
 

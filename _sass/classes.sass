@@ -62,18 +62,23 @@
 
 // High-contrast helper for subtle text
 .muted-strong
-  color: reduce(70)
+  color: reduce(60)
+
+// Stronger contrast helper for headings/subheadings
+.text-contrast-strong
+  color: reduce(40)
 
 // Pills for contact links
 .pill
   display: inline-flex
   align-items: center
-  gap: .5em
-  padding: .5em .9em
-  border-radius: 10em
+  gap: .6em
+  padding: .7em 1.1em
+  border-radius: 999px
   background: reduce(6)
   border: 1.5px solid reduce(18)
   font-weight: 600
+  font-size: 1.02em
 
 .pill:hover
   text-decoration: none
@@ -81,6 +86,13 @@
 
 a:hover .icon
   color: reduce(100)
+
+// Ensure button icons are visible and sized
+.btn .icon
+  width: 1.1em
+  height: 1.1em
+  flex: 0 0 auto
+  color: currentColor
 
 .full table
   display: table
