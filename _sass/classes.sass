@@ -23,6 +23,17 @@
       transform: translateY(-2px)
       box-shadow: 0 .5rem 1rem rgba(0,0,0,.08)
 
+// Dark theme friendly card surfaces
+.card
+  background: lighten($dark, 4%)
+  color: inherit
+  border: 1px solid reduce(14)
+
+@media (prefers-color-scheme: light)
+  .card
+    background: $light
+    border-color: reduce(14)
+
 .badge
   border-color: $link-color
 
