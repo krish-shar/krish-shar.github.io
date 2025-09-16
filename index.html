@@ -3,26 +3,75 @@ layout: default
 title: "Home"
 ---
 
-<div class="container" style="padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px;">
+<div class="container py-5">
   <div class="row">
     <div class="col-md-10 offset-md-1">
       <!-- Resume Header with CV Link -->
-      <div class="text-center mb-4">
-        <h1 class="display-4">Krish Sharma</h1>
-        <p>
-          <a href="tel:470-350-2122">470-350-2122</a> | 
-          <a href="mailto:ks@gatech.edu">ks@gatech.edu</a> | 
-          <a href="https://linkedin.com/in/krish-shar/" target="_blank">linkedin.com/in/krish-shar/</a> | 
-          <a href="https://github.com/krish-shar" target="_blank">github.com/krish-shar</a>
-        </p>
-        <p class="mt-3">
-          <a href="/cv" class="btn btn-primary">View PDF Resume</a>
-        </p>
+      <div class="text-center mb-5">
+        <h1 class="display-4 mb-3">Krish Sharma</h1>
+        <p class="lead text-muted mb-4">CS @ Georgia Tech • AI & Modeling/Simulation • FinTech</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+          <a class="text-decoration-none" href="tel:470-350-2122">
+            <span class="badge text-bg-light border"><svg class="icon me-1" width="16" height="16"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#phone"></use></svg>470-350-2122</span>
+          </a>
+          <a class="text-decoration-none" href="mailto:ks@gatech.edu">
+            <span class="badge text-bg-light border"><svg class="icon me-1" width="16" height="16"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#envelope"></use></svg>ks@gatech.edu</span>
+          </a>
+          <a class="text-decoration-none" href="https://linkedin.com/in/krish-shar/" target="_blank" rel="noopener">
+            <span class="badge text-bg-light border"><svg class="icon me-1" width="16" height="16"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#linkedin"></use></svg>linkedin.com/in/krish-shar/</span>
+          </a>
+          <a class="text-decoration-none" href="https://github.com/krish-shar" target="_blank" rel="noopener">
+            <span class="badge text-bg-light border"><svg class="icon me-1" width="16" height="16"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#github"></use></svg>github.com/krish-shar</span>
+          </a>
+        </div>
+        <div class="mt-3">
+          <a href="/cv" class="btn btn-primary">
+            <svg class="icon me-2" width="16" height="16"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#file-pdf"></use></svg>
+            View PDF Resume
+          </a>
+          <a href="/projects" class="btn btn-outline-primary ms-2">
+            <svg class="icon me-2" width="16" height="16"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#folder"></use></svg>
+            Explore Projects
+          </a>
+        </div>
       </div>
+
+      <!-- Bio Section -->
+      <section class="mb-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h2 class="h4 mb-3">About Me</h2>
+                <p>
+                  I’m a Computer Science major at Georgia Tech with a FinTech minor and concentrations in Artificial Intelligence and Modeling & Simulation. I love turning ideas into working systems—fast—and I’m obsessed with learning and building with new technologies. From agentic AI and GNNs to full‑stack apps and cloud deployments, I focus on shipping polished, reliable products that solve real problems. I thrive in hackathons and startup environments, collaborating with teams to move from prototype to production while keeping performance, clarity, and user experience top of mind.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interests / Personality Badges -->
+      <section class="mb-5">
+        <div class="text-center">
+          <div class="d-inline-flex flex-wrap justify-content-center gap-2">
+            <span class="badge text-bg-light border">Agentic AI</span>
+            <span class="badge text-bg-light border">Graph Neural Networks</span>
+            <span class="badge text-bg-light border">FinTech</span>
+            <span class="badge text-bg-light border">Modeling & Simulation</span>
+            <span class="badge text-bg-light border">Cloud & DevOps</span>
+            <span class="badge text-bg-light border">Hackathons</span>
+          </div>
+        </div>
+      </section>
 
       <!-- Education Section -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Education</h2>
+        <h2 class="border-bottom pb-2">
+          <svg class="icon me-2" width="18" height="18"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#graduation-cap"></use></svg>
+          Education
+        </h2>
         <div class="row">
           <div class="col-md-8">
             <h3>Georgia Institute of Technology</h3>
@@ -38,9 +87,38 @@ title: "Home"
         </div>
       </section>
 
+      <!-- Contact CTA -->
+      <section class="mb-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body d-flex flex-column flex-md-row align-items-md-center justify-content-between">
+                <div class="mb-3 mb-md-0">
+                  <h2 class="h5 mb-1">Let’s build something great</h2>
+                  <p class="mb-0 text-muted">I’m always open to collaborating on impactful AI and product ideas.</p>
+                </div>
+                <div class="text-nowrap">
+                  <a class="btn btn-primary me-2" href="mailto:ks@gatech.edu">
+                    <svg class="icon me-2" width="16" height="16"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#envelope"></use></svg>
+                    Email Me
+                  </a>
+                  <a class="btn btn-outline-primary" href="https://linkedin.com/in/krish-shar/" target="_blank" rel="noopener">
+                    <svg class="icon me-2" width="16" height="16"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#linkedin"></use></svg>
+                    Connect
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Experience Section -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Experience</h2>
+        <h2 class="border-bottom pb-2">
+          <svg class="icon me-2" width="18" height="18"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#briefcase"></use></svg>
+          Experience
+        </h2>
         
         <!-- Morgan Stanley -->
         <div class="row mb-4">
@@ -94,7 +172,13 @@ title: "Home"
 
       <!-- Projects Section -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Projects</h2>
+        <div class="d-flex align-items-center justify-content-between">
+          <h2 class="border-bottom pb-2 flex-grow-1">
+            <svg class="icon me-2" width="18" height="18"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#code"></use></svg>
+            Projects
+          </h2>
+          <a href="/projects" class="btn btn-sm btn-outline-secondary ms-3">See all</a>
+        </div>
         
         <!-- InvestIQ -->
         <div class="row mb-4">
@@ -131,12 +215,38 @@ title: "Home"
 
       <!-- Technical Skills Section -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Technical Skills</h2>
+        <h2 class="border-bottom pb-2">
+          <svg class="icon me-2" width="18" height="18"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#wrench"></use></svg>
+          Technical Skills
+        </h2>
         <div class="row">
           <div class="col-md-12">
-            <p><strong>Languages:</strong> Python, Java, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R, Dart, C#</p>
-            <p><strong>Frameworks:</strong> Tensorflow, Pytorch, Jax, Langchain, AutoGen, Flutter, React, NextJS, Flask, FastAPI, NodeJS</p>
-            <p><strong>Developer Tools:</strong> Git, Docker, AWS, GCP, Azure, Kubernetes, Unix, Vector Databases</p>
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <div class="fw-bold mb-2">Languages</div>
+                    <div>Python, Java, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R, Dart, C#</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <div class="fw-bold mb-2">Frameworks</div>
+                    <div>Tensorflow, Pytorch, Jax, Langchain, AutoGen, Flutter, React, NextJS, Flask, FastAPI, NodeJS</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <div class="fw-bold mb-2">Developer Tools</div>
+                    <div>Git, Docker, AWS, GCP, Azure, Kubernetes, Unix, Vector Databases</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5B3CF0"/>
+      <stop offset="100%" stop-color="#7C5CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <g fill="#ffffff" font-family="-apple-system,Segoe UI,Roboto,PT Sans,Arial" text-anchor="start">
+    <text x="80" y="190" font-weight="800" font-size="96">Krish Sharma</text>
+    <text x="80" y="260" font-weight="500" font-size="40" opacity="0.9">CS @ Georgia Tech • AI & Modeling + FinTech</text>
+    <text x="80" y="330" font-weight="400" font-size="30" opacity="0.85">Portfolio • Projects • Resume</text>
+  </g>
+  <circle cx="1040" cy="160" r="70" fill="#ffffff" opacity="0.1"/>
+  <circle cx="980" cy="480" r="120" fill="#ffffff" opacity="0.06"/>
+</svg>
+
